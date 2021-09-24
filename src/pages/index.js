@@ -2,7 +2,6 @@ import Head from "next/head";
 import Banner from "../components/Banner";
 import Header from "../components/Header";
 import ProductFeed from "../components/ProductFeed";
-// import previewImage from "../../public/Amazon-clone.png";
 
 const currentURL = "https://amazon-toluade.vercel.app/";
 const siteName = "Amazon Clone by ToluAde";
@@ -16,7 +15,7 @@ export default function Home({ products }) {
         <meta property="og:url" content={currentURL} key="ogurl" />
         <meta
           property="og:image"
-          content="../../public/Amazon-clone.png"
+          content="../../public/Amazon-clone.jpg"
           key="ogimage"
         />
         <meta property="og:site_name" content={siteName} key="ogsitename" />
